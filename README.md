@@ -25,7 +25,7 @@ Looking at the model-2 accuracy and loss graphs of training and validation data 
 #### Conclutions from Model 2 - (data augmentation using Augmentor library)
 Looking at the model-1 accuracy and loss graphs of training and validation data we can see that
 - **Model is clearly overfitting as training accuracy is significatly more than validation accuracy**.
-- Validation accuracy is plateauing after about 5 epochs.
+- Validation accuracy is plateauing after about 10 epochs.
 
 ## Technologies Used
 - Python - version 3.12.3
