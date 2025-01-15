@@ -13,9 +13,19 @@
 - The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC).
 
 ## Conclusions
-- Conclusion from the training Model 1
-- Conclusion from the training Model 2
-- Conclusion from the training Model 3
+#### Conclutions from Model 1 - (No data augmentation)
+Looking at the model-1 accuracy and loss graphs of training and validation data we can see that
+- **Model is clearly overfitting as training accuracy is significatly more than validation accuracy**.
+- Validation accuracy is plateauing after about 5 epochs.
+
+#### Conclutions from Model 2 - (data augmentation using Keras library)
+Looking at the model-2 accuracy and loss graphs of training and validation data we can see that
+- **Model is clearly underfitting as both training and validation accuracy is around 50% even after training the model for 20 epochs**.
+
+#### Conclutions from Model 2 - (data augmentation using Augmentor library)
+Looking at the model-1 accuracy and loss graphs of training and validation data we can see that
+- **Model is clearly overfitting as training accuracy is significatly more than validation accuracy**.
+- Validation accuracy is plateauing after about 5 epochs.
 
 ## Technologies Used
 - Python - version 3.12.3
@@ -25,4 +35,4 @@
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@singh-anshuman] - feel free to contact me!
